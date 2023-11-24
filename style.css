@@ -867,7 +867,7 @@ h5{
         left:0px;
         position:relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: start;
         
     }
