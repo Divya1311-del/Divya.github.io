@@ -946,11 +946,17 @@ h5{
         width:100%;
     }
     .tech{
-        height:500px;
+        height:450px;
         width:400px;
         text-align: left;
         left:40px;
     }
+   .tech-section{
+	height:450px;
+    width:400px;
+	margin:20px;
+	padding:0px;
+}
     .personal{
         height:500px;
         width:500px;
@@ -981,7 +987,7 @@ h5{
         width:60%;
         height:15px;
         padding:2px;
-        margin:5px;
+        margin: 5px 0px 10px 5px;
         position:relative;
         border:2px solid grey;
         border-radius: 25px;
@@ -1104,7 +1110,7 @@ h5{
         opacity: 0;
     }
     .education-section{
-        height:600px;
+        height:500px;
         width: 500px;
         margin:0px;
         padding: 10px 0px 0px 10px;
