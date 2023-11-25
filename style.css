@@ -390,6 +390,10 @@ p{
     animation: progress 3s normal linear;
     text-align:right;
 }
+.tech-section{
+	margin:20px;
+	padding:0px;
+}
 @keyframes progress{
         0%{
             width:0%;
@@ -411,7 +415,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
+    margin: 20px 0px 0px 90px;
 }
 .radial-bars .radial-bar{
     width:200px;
@@ -421,8 +426,8 @@ p{
 } 
 .radial-bars .radial-bar svg{
     position:absolute;
-    top:50px;
-    left:50px;
+    top:100px;
+    left:100px;
     transform:translate(-50%,-50%) rotate(-90deg);
     width:120px;
     height:160px;
@@ -476,8 +481,8 @@ p{
 }
 .radial-bar .percentage{
     position:absolute;
-    top:50%;
-    left:50%;
+    top:100px;
+    left:100px;
     transform: translate(-50%,-50%);
     font-size:17px;
     font-weight: 500;
