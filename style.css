@@ -269,14 +269,14 @@ span{
     margin:0px;
     padding:0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
+    align-items: start;
     
 }
 h2{
     margin:0px;
     padding:80px 0px 0px 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .about-left{
@@ -341,18 +341,18 @@ h2{
 }
 .tech{
     height:500px;
-    width:50%;
+    width:500px;
     text-align: left;
     left:40px;
 }
 .personal{
     height:400px;
-    width:50%;
+    width:500px;
     left:500px;
 }
 h4{
     height:20px;
-    text-align: center;
+    text-align: left;
     color:aqua;
     font-size: 30px;
     padding:40px;
@@ -535,7 +535,7 @@ h1{
     
     margin:0px;
     padding:30px;
-    text-align: center;
+    text-align: left;
     
 }
 h5{
