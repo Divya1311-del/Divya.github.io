@@ -391,6 +391,8 @@ p{
     text-align:right;
 }
 .tech-section{
+	height:500px;
+    width:600px;
 	margin:20px;
 	padding:0px;
 }
