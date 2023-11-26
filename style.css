@@ -927,7 +927,7 @@ h5{
         
     }
     .skills-section{
-        height:1200px;
+        height:1300px;
         width:500px;
         margin:0px;
         padding: 30px 0px 0px 30px;
@@ -942,7 +942,7 @@ h5{
         padding:10px;
         display:flex;
         flex-direction: column;
-        height:500px;
+        height:1200px;
         width:100%;
     }
     .tech{
@@ -952,13 +952,13 @@ h5{
         left:40px;
     }
    .tech-section{
-	height:450px;
+	height:500px;
     width:400px;
 	margin:20px;
 	padding:0px;
 }
     .personal{
-        height:500px;
+        height:600px;
         width:500px;
         text-align: left;
         left:20px;
