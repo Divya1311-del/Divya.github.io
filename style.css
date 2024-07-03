@@ -33,18 +33,12 @@ body{
     align-items: center;
     display:flex;
     flex-direction: row;
-    padding:10px;
-    
-    
-    
+    padding:10px;   
 }
 .nav{
 	width: 100%;
 	height: 80px;
-	
 }
-
-
 .nav ul{
 	float:right;
 	margin-right: 20px;
@@ -59,8 +53,6 @@ body{
     
 }
 .nav a{
-
-
 	color: white;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -70,16 +62,16 @@ body{
     text-decoration: none;
 
 }
- .nav a.active,a:hover{
+ .nav a.active{
 	background-color:aqua;
 	transition: 1s;
 	color: black;
-  
-
 }
-
-
-
+.nav a:hover{
+background-color:aqua;
+	transition: 1s;
+	color: black;
+}
 .home-section{
     height:650px;
     width:100%;
@@ -89,8 +81,6 @@ body{
     padding: 0px;
     background-color:black;
     color:white;
-    
-
 }
 
 .home-left{
@@ -99,7 +89,7 @@ body{
     padding: 70px;
 }
 .wrapper{
-    height:300px;
+    height:350px;
     width:600px;
     display:flex;
     flex-direction: column;
@@ -129,6 +119,7 @@ body{
     line-height:90px;
     overflow:hidden;
     margin-left:5rem;
+    margin-top: 20px;
 
 }
 .sec-texts li{
@@ -179,24 +170,21 @@ h3{
 .name{
     color:rgb(8, 201, 197);
 }
-button{
+.buttons button{
     border-radius:8px;
     height:40px;
     width:150px;
     font-weight: bold;
     margin-left:15px;
     border:2px solid black;
-    font-size: 17px;
-    
-
-    
+    font-size: 17px; 
 }
-button a{
+.buttons button a{
     text-decoration: none;
     color:black;
     border: none;
 }
-button:hover{
+.buttons button:hover{
     border-radius:8px;
     height:40px;
     width:150px;
@@ -208,7 +196,7 @@ button:hover{
 .buttons{
     display: flex;
     flex-direction: row;
-    margin-left: 130px;
+    margin-left: 70px;
 }
 span{
     gap:30px;
@@ -227,10 +215,9 @@ span{
     position: relative;
     height:50px;
     width:320px;
-
     padding: 0;
     margin-top:50px;
-    margin-left: 290px;
+    margin-left: 250px;
     transform: translate(-50%, -50%);
     display: flex;
 }
@@ -286,7 +273,7 @@ span{
     right:400px;
     padding:150px 0px 0px 300px;
 }
-.home-right img{
+.container1 img{
     height:300px;
     width:300px;
     margin:10px;
@@ -294,7 +281,7 @@ span{
     z-index:1;
     
 } 
-.container {
+.container1 {
     position: relative;
     width: 305px;
     height: 305px;
@@ -303,12 +290,11 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     overflow: hidden;
     padding:2px;
     box-shadow:0 0 100px aqua;
   }
-  .container::before {
+  .container1::before {
     content: "";
     position: absolute;
     height: 400px;
@@ -317,7 +303,7 @@ span{
     animation: animate 3s linear infinite;
     animation-delay: -1s;
   }
-  .container::after {
+  .container1::after {
     content: "";
     position: absolute;
     height: 400px;
@@ -343,7 +329,7 @@ span{
     align-items: center;
     
 }
-h2{
+.about-section h2{
     margin:0px;
     padding:80px 0px 0px 10px;
     text-align: center;
@@ -420,7 +406,7 @@ h2{
     width:50%;
     left:500px;
 }
-h4{
+.skills-section h4{
     height:20px;
     text-align: center;
     color:aqua;
@@ -433,27 +419,28 @@ h4{
     padding:10px;
     color:white;
 }
-p{
+.myskill p{
     font-size:15px;
     padding:0px;
     margin:0px;
     text-align: left;
 }
-.container1{
+.container2{
     width:60%;
     height:15px;
-    padding:2px;
-    margin:5px;
+    padding:1px;
+    margin:0px;
     position:relative;
     border:2px solid grey;
     border-radius: 25px;
 }
-.container1 .skill{
+.container2 .skill{
     position:absolute;
     width:0px;
     height:10px;
     color:white;
-    padding:1px;
+    padding:5px;
+    
     font-size:15px;
     border-radius: 15px;
     background-color: aqua;
@@ -575,65 +562,67 @@ p{
     padding: 70px 0px 0px 30px;
     background-color:black;
     color:white;
+    text-align: left;
 }
 
 .texts{
     font-size:20px;
 }
-h6{
+.education-section h6{
     font-size:20px;
     margin:20px 0px 20px 0px;
 }
+
 .project-section{
     height:650px;
     width:100%;
-   
     margin:0px;
     padding: 70px 0px 0px 30px;
-    background-color:black;
-    color:white;
-}
-.project{
-    display:flex;
-    flex-direction: row;
-
-}
-h1{
-    color:aqua;
-    height:30px;
-    width:100%;
-    
-    margin:0px;
-    padding:30px;
+    background-color:rgb(211, 187, 187);
+    color:white;   
     text-align: center;
-    
 }
-h5{
-    font-size:20px;
-    margin:0px;
 
-}
-.container4{
-    height:350px;
-    border:2px solid gray;
-    width:320px;
-    text-align:center;
-    border-radius:15px;
-    padding:10px;
-    margin:10px;
-}
-.container4 a:hover{
-    overflow: hidden;
-    background-color: black;
-
-
-}
-.picture img{
-    height:250px;
-    width:270px;
-    margin:30px;
+.project-section h2{
+    font-size: 35px;
+    margin:0px 20px 20px 10px;
+    font-weight: bold;
+  }
+  .carousel-inner{
+    width:100%;
+    height:400px;
+  }
+  .carousel-item {
+    width:100%;
+    height:400px;
+  }
    
-}
+  .card{
+    padding:0;
+    height:400px;
+    width:300px;
+  }
+  .card img{
+    height:300px;
+    width:300px;
+  }
+  .card img:hover{
+    height:300px;
+    width:300px;
+  }
+  .card-body{
+    height:200px;
+    width:300px;
+  }
+  .card-body h5{
+    color:blue;
+    font-size: 25px;
+    margin:15px;
+  }
+  .card-wrapper{
+    
+  }
+  
 @media (max-width:2008px){
 	
 	.nav ul{
@@ -646,41 +635,30 @@ h5{
 }@media (max-width:509px){
 	body{
         margin:0px;
-        height:5000px;
+        height:4650px;
         width:100%;
-        
-    
     }
-   
-   
     .nav-section{
         background-color:black;
         height:400px;
         width:500px;
-        
         color:white;
         position:relative;
         overflow: hidden;
         display: flex;
-        flex-direction: column;
-       
-        
-        
-        
+        flex-direction: column;  
     }
     .nav-left{
         width:400px;
         height:100px;
         position:relative;
         margin-left:180px;
-
     }
     .nav-left img{
         margin-top:10px;
         height:75px;
         width:75px;
         position: relative;
-        
     }
     .nav-right{
         position: relative;
@@ -688,48 +666,35 @@ h5{
         margin: 0px;
         width:400px;
         height:400px;
-        
         display: block;
        
         left:10px;
     }
 	.navbar{
-    
        height:400px;
        width:400px;
        padding:0px;
        display: flex;
        flex-direction: column;
-        
-        
     }
     .nav{
         width: 400px;
-        height: 280px;
-        
+        height: 280px;   
     }
-    
-    
     .nav ul{
         align-items: center;
         margin:0px;
         padding: 0px;
-        
         width:400px;
         display: flex;
         flex-direction: column;
-       
-       
     }
     .nav li{
-        
         display: inline-block;
         margin: 0 8px;
-        line-height: 50px;
-        
+        line-height: 50px;  
     }
     .nav a{
-
         position: relative;
         color: white;
         font-size: 15px;
@@ -744,16 +709,14 @@ h5{
         background-color:aqua;
         transition: 1s;
         color: black;
-      
     
     }
 	.open{
         height: 50px;
         width: 50px;
-
     }
     .home-section{
-        height:900px;
+        height:1000px;
         width:500px;
         display:flex;
         flex-direction: column;
@@ -763,15 +726,89 @@ h5{
         color:white;
         position:relative;
     }
-    
     .home-left{
-        height:500px;
+        height:600px;
         width:400px;
         padding: 0px;
     }
+    .wrapper{
+        height:350px;
+        width:600px;
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        padding-top:80px;
+    }
+    .wrapper .first-text{
+        font-size:60px;
+        color:#fff;
+        padding-top:10px;
+        margin-left:8.5rem;
+        height:60px;
+    }
+    .first-text1{
+        height:60px;
+        width:300px;
+        position:relative;
+        font-size:60px;
+        color:aqua;
+        padding-top:10px;
+        margin-left:8.5rem;
+    }
+    
+    .wrapper .sec-texts{
+        position:relative;
+        height:90px;
+        line-height:90px;
+        overflow:hidden;
+        margin-left:5rem;
+        margin-top: 20px;
+    
+    }
+    .sec-texts li{
+        position: relative;
+        top:0;
+        font-size:60px;
+        color:#0ef;
+        list-style:none;
+        padding:0 20px;
+        text-shadow:0 0 10px #0ef;
+        animation:slide 12s steps(4) infinite, colorful 6s infinite;
+    }
+    @keyframes slide {
+        100%{
+            top:-360px;
+        }
+        
+    }
+    @keyframes colorful{
+        100%{
+            filter:hue-rotate(360deg);
+        }
+    } 
+        
+    .sec-texts li span{
+        position:relative;
+    }
+    .sec-texts li span:before{
+        content:'';
+        position:absolute;
+        left:0;
+        width:400px;
+        height:90px;
+        background:#000;
+        border-left:2px solid #0ef;
+        animation:typing 1.5s steps(10) infinite alternate;
+    }
+    @keyframes typing {
+     100%{
+        left:100%;
+        margin:0 -35px 0 35px;
+     }    
+    }
     h3{
         font-size: 40px;
-        padding: 50px 0px 0px 30px;
+        padding: 50px 0px 0px 150px;
     }
     .name{
         color:rgb(8, 201, 197);
@@ -780,23 +817,23 @@ h5{
         display: flex;
         flex-direction: row;
         margin:10px;
+        margin-left: 3rem;
     }
-    button{
+    .buttons button{
         border-radius:8px;
         height:40px;
         width:150px;
         font-weight: bold;
         margin-left: 20px;
         border:2px solid black;
-        font-size: 17px;
-        
+        font-size: 17px; 
     }
-    button a{
+    .buttons button a{
         text-decoration: none;
         color:black;
         border: none;
     }
-    button:hover{
+    .buttons button:hover{
         border-radius:8px;
         height:40px;
         width:150px;
@@ -821,10 +858,10 @@ h5{
         position: relative;
         height:50px;
         width:320px;
-       
+        margin-bottom:50px;
         padding: 0;
         margin-top:50px;
-        margin-left: 170px;
+        margin-left: 19.5rem;
         transform: translate(-50%, -50%);
         display: flex;
     }
@@ -874,7 +911,7 @@ h5{
         background-color: #1ae4bf;
     }
     .home-right{
-        height:400px;
+        height:500px;
         width:350px;
        padding:20px;
         margin:10px;
@@ -886,12 +923,9 @@ h5{
         margin:0px;
         border-radius:50%;
         z-index:1;
-        padding: 10px;
-        
+        padding: 10px; 
     }
-    
-    
-    .container {
+    .container1 {
         position: relative;
         width: 305px;
         height: 305px;
@@ -904,7 +938,7 @@ h5{
         padding:2px;
         box-shadow:0 0 50px aqua;
       }
-      .container::before {
+      .container1::before {
         content: "";
         position: absolute;
         height: 305px;
@@ -913,7 +947,7 @@ h5{
         animation: animate 3s linear infinite;
         animation-delay: -1s;
       }
-      .container::after {
+      .container1::after {
         content: "";
         position: absolute;
         height: 350px;
@@ -941,7 +975,7 @@ h5{
         align-items: start;
         
     }
-    h2{
+    .about-section h2{
         margin:0px;
         padding:80px 0px 0px 10px;
         
@@ -987,7 +1021,7 @@ h5{
         
     }
     .skills-section{
-        height:1200px;
+        height:1250px;
         width:500px;
         margin:0px;
         padding: 30px 0px 0px 30px;
@@ -1017,7 +1051,7 @@ h5{
         text-align: left;
         left:20px;
     }
-    h4{
+    .skills-section h4{
         height:20px;
         text-align:left;
         color:aqua;
@@ -1031,22 +1065,22 @@ h5{
         padding:20px;
         color:white;
     }
-    p{
+    .myskill p{
         font-size:15px;
         padding:0px;
         margin:0px;
         text-align: left;
     }
-    .container1{
+    .container2{
         width:60%;
         height:15px;
-        padding:2px;
+        padding:1px;
         margin:5px;
         position:relative;
         border:2px solid grey;
         border-radius: 25px;
     }
-    .container1 .skill{
+    .container2 .skill{
         position:absolute;
         width:0px;
         height:10px;
@@ -1175,51 +1209,65 @@ h5{
     .texts{
         font-size:12px;
     }
-    h6{
+    .education-section h6{
         font-size:18px;
         margin:10px 0px 10px 0px;
     }
     .project-section{
-        height:1400px;
+        height:650px;
         width:500px;
         margin:0px;
-        padding: 40px 0px 0px 10px;
-        background-color:black;
-        color:white;
-        position:relative;
+        padding: 70px 0px 0px 30px;
+        background-color:rgb(211, 187, 187);
+        color:black;  
+        justify-content: center;
+        text-align: center; 
     }
-    .project{
-        display:flex;
-        flex-direction: column;
     
-    }
-    h1{
-        color:aqua;
-        height:30px;
+    .project-section h2{
+        font-size: 35px;
+        margin:0px 20px 20px 10px;
+        font-weight: bold;
+        
+      }
+      .carousel-inner{
+        width:300px;
+        height:300px;
+      }
+      .carousel-item {
         width:400px;
-        font-size: 20px;
+        height:400px;
+      }
+       
+      .card{
+        padding:0px;
+        height:150px;
+        width:100px;
+      }
+      .card img{
+        height:140px;
+        width:100px;
+      }
+      .card img:hover{
+        height:150px;
+        width:100px;
+        
+      }
+      .card a:hover{
+        background-color: white;
+      }
+      .card-body{
+        height:100px;
+        width:100px;
+      }
+      .card-body h5{
+        color:blue;
+        font-size: 12px;
         margin:0px;
-        padding:10px;
-        text-align: left;
-    }
-    h5{
-        font-size:20px;
-        margin:0px;
-    }
-    .container4{
-        height:260px;
-        border:2px solid gray;
-        width:250px;
-        text-align:center;
-        border-radius:15px;
-        padding:10px;
-        margin:10px;
-    }
-    .picture img{
-        height:180px;
-        width:180px;
-        margin:30px;
-    }
-
+      }
+      .card-wrapper{
+        
+      }
+      
 }   
 
